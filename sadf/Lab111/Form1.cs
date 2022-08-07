@@ -60,7 +60,10 @@ namespace Lab111
                         price = int.Parse(txt_price.Text),
                         number = int.Parse(txt_num.Text),
                         object_name = txt_obj.Text,
-                        inventorNum = int.Parse(txt_num.Text)
+                        inventorNum = int.Parse(txt_num.Text),
+                        isAvailable= chkAvailability.Checked,
+                        urgent=rbu.Checked,
+                        noturgent=rbn.Checked,
                     };
                     cl.save();
                     gdv.DataSource = null;
@@ -70,12 +73,61 @@ namespace Lab111
                 {
                     MessageBox.Show("Type Mismatch");
                 };
+                txt_inv.Text = "";
+                txt_count.Text = "";
+                txt_price.Text = "";
+                txt_num.Text = "";
+                txt_obj.Text = "";
+                chkAvailability.Checked = false;
+                rbu.Checked = false;
+                rbn.Checked = false; 
+                
             }
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void btnCancel_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            System.Environment.Exit(0);
+        }
+
+        private void lblNumber_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_num_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblDate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblInventoryNumber_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblObjectNumber_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gdv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

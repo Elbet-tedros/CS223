@@ -15,10 +15,13 @@ namespace Lab111
         public int inventorNum { get; set; }
         public int count { get; set; }
         public string object_name { get; set; }
-
+        public bool isAvailable { get; set; }
+        public bool urgent { get; set; }
+        public bool noturgent { get; set; }
 
         public void save()
         {
+       
             Products.Add(this);
         }
         public static List<Class1> getAll()
