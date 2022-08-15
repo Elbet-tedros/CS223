@@ -225,7 +225,7 @@
             "halfPayment"});
             this.checkedListBox1.Location = new System.Drawing.Point(300, 328);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(167, 89);
+            this.checkedListBox1.Size = new System.Drawing.Size(167, 79);
             this.checkedListBox1.TabIndex = 16;
             this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
@@ -277,7 +277,9 @@
             this.Controls.Add(this.lblInventoryNumber);
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.lblNumber);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.gdv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ErrPro)).EndInit();

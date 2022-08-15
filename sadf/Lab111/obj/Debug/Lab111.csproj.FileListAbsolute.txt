@@ -32,3 +32,5 @@ C:\Users\hp\Desktop\Csharp101\CS223\sadf\Lab111\obj\Debug\Lab111.csproj.CoreComp
 C:\Users\hp\Desktop\Csharp101\CS223\sadf\Lab111\obj\Debug\Lab111.exe
 C:\Users\hp\Desktop\Csharp101\CS223\sadf\Lab111\obj\Debug\Lab111.pdb
 C:\Users\hp\Desktop\Csharp101\CS223\sadf\Lab111\obj\Debug\Lab111.Login.resources
+C:\Users\hp\Desktop\Csharp101\CS223\sadf\Lab111\obj\Debug\Lab111.Menu.resources
+C:\Users\hp\Desktop\Csharp101\CS223\sadf\Lab111\obj\Debug\Lab111.Search.resources

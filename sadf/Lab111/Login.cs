@@ -21,8 +21,8 @@ namespace Lab111
         {
             if ((txtName.Text == "admin") && (txtPass.Text == "admin"))
             {
-                Form1 f = new Form1();
-                f.Show();
+                Menu m = new Menu();
+                m.Show();
                 this.Hide();
             }
             else

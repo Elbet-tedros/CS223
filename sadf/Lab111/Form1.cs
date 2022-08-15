@@ -13,6 +13,9 @@ using Lab111;
 
 namespace Lab111
 {
+    //FormBorderStyle from sizable to none
+    //Startposition from windows default to center screen
+    //sizes should correspond
     public partial class Form1 : Form
     {
         private object txtNumber;
