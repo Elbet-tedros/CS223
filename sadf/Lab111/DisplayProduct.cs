@@ -26,6 +26,11 @@ namespace Lab111
                 pc.MyObjName = item.object_name;
 
                 pc.MyPrice = item.price;
+                pc.Click += (object o, EventArgs e2) =>
+                {
+                    DetailsPage dp = new DetailsPage(item.number,item.inventorNum,item.count);
+                    dp.Show();
+                };
                 flp.Controls.Add(pc);
 
             }
