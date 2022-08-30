@@ -62,7 +62,7 @@
             this.lblNumber.Size = new System.Drawing.Size(81, 25);
             this.lblNumber.TabIndex = 0;
             this.lblNumber.Text = "Number";
-            this.lblNumber.Click += new System.EventHandler(this.lblNumber_Click);
+            
             // 
             // lblDate
             // 
@@ -73,7 +73,7 @@
             this.lblDate.Size = new System.Drawing.Size(53, 25);
             this.lblDate.TabIndex = 1;
             this.lblDate.Text = "Date";
-            this.lblDate.Click += new System.EventHandler(this.lblDate_Click);
+            
             // 
             // lblInventoryNumber
             // 
@@ -84,7 +84,6 @@
             this.lblInventoryNumber.Size = new System.Drawing.Size(163, 25);
             this.lblInventoryNumber.TabIndex = 2;
             this.lblInventoryNumber.Text = "Inventory number";
-            this.lblInventoryNumber.Click += new System.EventHandler(this.lblInventoryNumber_Click);
             // 
             // lblObjectNumber
             // 
@@ -95,7 +94,6 @@
             this.lblObjectNumber.Size = new System.Drawing.Size(123, 25);
             this.lblObjectNumber.TabIndex = 3;
             this.lblObjectNumber.Text = "Object name";
-            this.lblObjectNumber.Click += new System.EventHandler(this.lblObjectNumber_Click);
             // 
             // lblCount
             // 
@@ -124,7 +122,6 @@
             this.txt_num.Name = "txt_num";
             this.txt_num.Size = new System.Drawing.Size(187, 30);
             this.txt_num.TabIndex = 6;
-            this.txt_num.TextChanged += new System.EventHandler(this.txt_num_TextChanged);
             // 
             // txt_price
             // 
@@ -197,7 +194,6 @@
             this.gdv.RowTemplate.Height = 24;
             this.gdv.Size = new System.Drawing.Size(618, 197);
             this.gdv.TabIndex = 14;
-            this.gdv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gdv_CellContentClick);
             // 
             // ErrPro
             // 
@@ -213,7 +209,6 @@
             this.chkAvailability.TabIndex = 15;
             this.chkAvailability.Text = "isAvailable";
             this.chkAvailability.UseVisualStyleBackColor = true;
-            this.chkAvailability.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkedListBox1
             // 
@@ -227,7 +222,6 @@
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(167, 79);
             this.checkedListBox1.TabIndex = 16;
-            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // rbu
             // 

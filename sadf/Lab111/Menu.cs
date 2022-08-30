@@ -38,5 +38,16 @@ namespace Lab111
             s.MdiParent = this;
             s.Show();
         }
+
+        private void displayToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+            DisplayProduct dp = new DisplayProduct();
+            dp.MdiParent = this;
+            dp.Show();
+        }
     }
 }

@@ -23,6 +23,8 @@ namespace Lab111
         public Form1()
         {
             InitializeComponent();
+            gdv.DataSource = null;
+            gdv.DataSource = Class1.getAll();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -93,44 +95,5 @@ namespace Lab111
             System.Environment.Exit(0);
         }
 
-        private void lblNumber_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txt_num_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblDate_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblInventoryNumber_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblObjectNumber_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gdv_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
