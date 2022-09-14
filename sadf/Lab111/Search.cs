@@ -31,5 +31,10 @@ namespace Lab111
                 MessageBox.Show("Match found");
             }
         }
+
+        private void Search_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

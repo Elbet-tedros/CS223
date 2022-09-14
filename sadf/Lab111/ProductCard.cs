@@ -26,9 +26,9 @@ namespace Lab111
        
 
         
-        private double _MyPrice;
+        private int _MyPrice;
 
-        public double MyPrice
+        public int MyPrice
         {
             get { return _MyPrice; }
             set { _MyPrice = value; label4.Text = value.ToString(); }
