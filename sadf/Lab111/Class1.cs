@@ -11,7 +11,7 @@ namespace Lab111
     internal class Class1
     {
 
-        public static List<Class1> Products = new List<Class1>();
+        
         public int number { get; set; }
         public int price { get; set; }
         public int inventorNum { get; set; }
@@ -37,12 +37,12 @@ namespace Lab111
             catch(Exception e2)
             {
                 MessageBox.Show(e2.Message);
-            }
+            };
             conn.Close();
-            Products.Add(this);
         }
         public static List<Class1> getAll()
         {
+            List<Class1> Products = new List<Class1>();
             string path = "Server=LAPTOP-2GJ2F7U2; Database=csharpdb; Integrated Security=true;";
             SqlConnection conn = new SqlConnection(path);
             string query = "select * from dbtable;";
@@ -70,6 +70,7 @@ namespace Lab111
         }
         public static Class1 findOne(string name)
         {
+            List<Class1> Products = new List<Class1>();
             string path = "Server=LAPTOP-2GJ2F7U2; Database=csharpdb; Integrated Security=true;";
             SqlConnection conn = new SqlConnection(path);
             string query = "select * from dbtable;";
@@ -94,7 +95,7 @@ namespace Lab111
                 MessageBox.Show(e3.Message);
             };
             conn.Close();
-            return Products.Find(Products => Products.object_name == name);
+            return Products.Find(a => a.object_name == name);
         }
     }
 }
